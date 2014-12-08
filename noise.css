@@ -1,0 +1,51 @@
+body { 
+    font-family: sans-serif;
+    background: #eee;
+    margin-left: auto; margin-right: auto;
+    padding: .4em;
+}
+input[type=radio] { display: none }
+input[type=radio] + label {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 9em;
+    height: 9em;
+    background: #eee;
+    border: 0.3em solid #ccc;
+    border-radius: 2em;
+    margin: .8em;
+    text-align: center;
+}
+input[type=radio]:checked + label{
+    border: 0.3em solid black;
+    /*background: #eee;*/
+    box-shadow: 0.1em 0.1em .8em black;
+}
+input[type=radio]:checked + label:last-child{
+    /* ewwww */
+    border: 0.3em solid transparent;
+    background: #036;
+}
+.col {
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 4em; height: 4em;
+    margin-bottom: 0.5em;
+}
+.name { font-weight: bold; }
+.expl { font-size: 0.9em }
+#nyanvas {
+    position: absolute; 
+    display: block; 
+    margin: 0; 
+    max-width: 100%; max-height: 100%; 
+    border: 0.3em solid black;
+    border-radius: 2em;
+    left: -0.3em; top: -0.3em;
+    /*left:0; top:0;*/
+    background: #036;
+    display: none;
+}
