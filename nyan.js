@@ -31,7 +31,7 @@ var Nyan = (function(ctx) {
     
     function init() {
 	var files = [];
-	for (var i=0; i<10; i++) files[i] = String.fromCharCode(i+97)+'.opus';
+	for (var i=0; i<10; i++) files[i] = 'nyan/'+String.fromCharCode(i+97)+'.opus';
 	
 	for (var i=0; i<files.length; i++) {
 	    load(i, files[i], files.length, wantstart?start:null);
