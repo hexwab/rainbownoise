@@ -3,6 +3,7 @@
 A noise generator webapp.
 
 https://sphere.chronosempire.org.uk/~HEx/rainbownoise/
+
 https://blog.sphere.chronosempire.org.uk/2014/12/08/rainbow-noise
 
 License: GPLv2+.
